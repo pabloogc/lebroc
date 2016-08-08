@@ -1,0 +1,96 @@
+{
+	"ImportPath": "github.com/minivac/lebroc",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gocraft/web",
+			"Comment": "v1.1-29-gc8ca29b",
+			"Rev": "c8ca29bc8a1cec97abe95c662e29dd8d31aff6e3"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/gqlerrors",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/ast",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/kinds",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/lexer",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/location",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/parser",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/printer",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/source",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/typeInfo",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "github.com/graphql-go/graphql/language/visitor",
+			"Comment": "v0.4.18-42-g491504a",
+			"Rev": "491504a5ac801fc9d72ecae4e57e5231c6a57595"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "e2ba55e4e78399d85f2a0e0b92396b81ed410633"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.08.01-1-g0108465",
+			"Rev": "01084657862d7b12d3b10ffd0394357abf8f8bc2"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.08.01-1-g0108465",
+			"Rev": "01084657862d7b12d3b10ffd0394357abf8f8bc2"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/json",
+			"Comment": "r2016.08.01-1-g0108465",
+			"Rev": "01084657862d7b12d3b10ffd0394357abf8f8bc2"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.08.01-1-g0108465",
+			"Rev": "01084657862d7b12d3b10ffd0394357abf8f8bc2"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.08.01-1-g0108465",
+			"Rev": "01084657862d7b12d3b10ffd0394357abf8f8bc2"
+		}
+	]
+}
