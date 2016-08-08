@@ -1,0 +1,55 @@
+//Query for a book
+
+http://localhost:3000/gql?query=
+{
+	book(id:"1"){
+	    title_text
+	    publisher_name
+    }
+}
+
+//Query for two books
+
+http://localhost:3000/gql?query=
+{
+	b1: book(id:"1"){
+		...BookFragment
+	}
+	b2: book(id:"2"){
+		...BookFragment
+	}
+}
+
+fragment BookFragment on book {
+	id
+	title_text
+	publisher_name
+	imprint_name
+	languages
+}
+
+//The data
+
+[
+    {
+        "id" : "1",
+        "title_text" : "Alice",
+        "publisher_name" : "Grupo Planeta",
+        "imprint_name" : "Roca",
+        "languages" : ["es", "eng", "ger"]
+    },
+    {
+        "id" : "2",
+        "title_text" : "Bob",
+        "publisher_name" : "Grupo Planeta",
+        "imprint_name" : "Roca",
+        "languages" : ["es", "eng", "ger"]
+    },
+    {
+        "id" : "3",
+        "title_text" : "Charles",
+        "publisher_name" : "Grupo Planeta",
+        "imprint_name" : "Roca",
+        "languages" : ["es", "eng", "ger"]
+    }
+]

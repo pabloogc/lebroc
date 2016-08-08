@@ -45,7 +45,7 @@ var Schema, _ = graphql.NewSchema(graphql.SchemaConfig{
 })
 
 func (c *GQLContext) rootGQL(rw web.ResponseWriter, req *web.Request) {
-	q := req.URL.Query()["q"][0]
+	q := req.URL.Query()["query"][0]
 	result := graphql.Do(graphql.Params{
 		Schema: Schema,
 		RequestString: q,
