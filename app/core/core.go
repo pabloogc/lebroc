@@ -18,7 +18,7 @@ func (c *Context) rootPage(rw web.ResponseWriter, req *web.Request) {
 
 func Configure(router *web.Router) {
 	BookService.Repo = &BookRepository{
-		ds:NewMongoDataSource("mongodb://admin:admin@ds147905.mlab.com:47905/ebooks"),
+		NewMongoDataSource("mongodb://admin:admin@ds147905.mlab.com:47905/ebooks"),
 	}
 
 	router.Get("/", (*Context).rootPage)
